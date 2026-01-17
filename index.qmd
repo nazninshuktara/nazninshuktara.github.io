@@ -1,0 +1,39 @@
+---
+title: "Naznin Akter"
+image: img/profile.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: envelope
+      href: mailto:nazninshuktara@gmail.com   
+    - icon: twitter
+      href: https://x.com/Naznin2070852
+      target: _blank
+    - icon: linkedin
+      href: https://linkedin.com/in/naznin-shuktara-94594a219/
+      target: _blank
+    - icon: github
+      href: https://github.com/nazninshuktara
+      target: _blank
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0003-3892-2556
+      target: _blank
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=_XdLsOUAAAAJ&hl=en
+      target: _blank
+    
+---
+
+::: {#hero-heading}
+
+Hello, I am *Naznin Akter*.
+
+Currently pursuing my MS in Biotechnology and Genetic Engineering. With a keen interest in molecular biology, veterinary biotechnology, cancer research, and bioinformatics, I am passionate about both wet and dry lab work. I aim to contribute to impactful research through a blend of experimental and computational approaches. In addition to my academic pursuits, I also work as a freelance data analyst on Fiverr, where I apply my analytical skills to solve diverse biological and healthcare-related data problems.
+
+This is a template with `side navigation`. Read more about website navigation [here](https://quarto.org/docs/websites/website-navigation.html).
+
+In this template you can find examples of using `listing` (grid, table, default) in **Projects, Talks, Blog**. Read more about lists [here](https://quarto.org/docs/websites/website-listings.html).
+
+:::

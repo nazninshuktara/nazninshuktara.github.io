@@ -1,2 +1,2 @@
-# nazninshuktara.github.io
-Academic Website for Naznin
+# academic-website-template
+Template for Academic Website

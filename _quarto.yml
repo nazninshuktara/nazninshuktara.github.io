@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "**Naznin Akter**"
+  image: "img/profile.jpg"
+  favicon: "img/favicon.jpg"
+  description: "Academic Website for Naznin Akter"
+
+  page-footer:
+    left: "&copy; Copyright 2026, Naznin"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  sidebar:
+    pinned: true
+    align: center
+    style: "docked"
+    collapse-level: 1
+    search: false
+    contents:
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Publication"
+        href: publications/index.qmd
+      - text: "Talks"
+        href: talks/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd 
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
